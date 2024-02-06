@@ -35,8 +35,8 @@ namespace MvcMovie.Migrations
                     b.Property<string>("Genre")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal>("Price")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<string>("Price")
+                        .HasColumnType("string");
 
                     b.Property<DateTime>("ReleaseDate")
                         .HasColumnType("datetime2");

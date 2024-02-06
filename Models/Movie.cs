@@ -19,11 +19,10 @@ namespace MvcMovie.Models
         [StringLength(30)]
         public string? Genre { get; set; }
 
-        [Range(1, 1000)]
-        [DataType(DataType.Currency)]
-        //[RegularExpression(@"^\d+\,\d{2}$")]
-        [Column(TypeName = "decimal(2, 2)")]
-        
+        //[DataType(DataType.Currency)]
+        [Column(TypeName = "decimal(18, 2)")]
+        [Required]
+        //[DisplayFormat(DataFormatString = "{0:C}", ApplyFormatInEditMode = true)]
         public decimal Price { get; set; }
 
         [RegularExpression(@"^[A-Z]+[a-zA-Z0-9""'\s-]*$")]
