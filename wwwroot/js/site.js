@@ -15,24 +15,38 @@ function validateString() {
     }
 } 
 
-Window.onload = function () {
-    let today = new Date();
-    let dd = today.getDate();
-    let mm = today.getMonth() + 1;
-    let yyyy = today.getFullYear() + 1;
-    console.log(yyyy);
+function validateEditString() {
+    let val = 2;
+    let myString = document.getElementById("edit-price-form").value
+    if (myString.includes('.')) {
+        myString = myString.replace('.', ',');
+        myString = myString.slice(0, (myString.indexOf(",")) + val + 1);
+        document.getElementById("edit-price-form").value = myString
 
-    if (dd < 10) {
-        dd = '0' + dd;
+    } else if (myString.includes(',')) {
+        myString = myString.slice(0, (myString.indexOf(",")) + val + 1);
+        document.getElementById("edit-price-form").value = myString
     }
+} 
 
-    if (mm < 10) {
-        mm = '0' + mm;
-    }
+//Window.onload = function () {
+//    let today = new Date();
+//    let dd = today.getDate();
+//    let mm = today.getMonth() + 1;
+//    let yyyy = today.getFullYear() + 1;
+//    console.log(yyyy);
 
-    today = dd + '-' + mm + '-' + yyyy;
-    document.getElementById("date-form").value = today
-}
+//    if (dd < 10) {
+//        dd = '0' + dd;
+//    }
+
+//    if (mm < 10) {
+//        mm = '0' + mm;
+//    }
+
+//    today = dd + '-' + mm + '-' + yyyy;
+//    document.getElementById("date-form").value = today
+//}
 
 function defaultDate() {
     let today = new Date();

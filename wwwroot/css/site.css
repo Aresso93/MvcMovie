@@ -16,3 +16,7 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.star-div{
+    border: 10px solid black;
+}
