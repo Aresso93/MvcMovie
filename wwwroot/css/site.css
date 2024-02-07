@@ -18,5 +18,10 @@ body {
 }
 
 .star-div{
-    border: 10px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.star-container{
+    display: flex;
 }
