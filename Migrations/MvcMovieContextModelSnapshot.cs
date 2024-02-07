@@ -36,9 +36,6 @@ namespace MvcMovie.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
-                    //b.Property<string>("Price")
-                    //    .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Rating")
                         .HasColumnType("nvarchar(max)");
 
