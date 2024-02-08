@@ -72,38 +72,74 @@ function getDate() {
     return today.trim();
 }
 
-new DataTable('#myTable', {
-    initComplete: function () {
-        this.api()
-            .columns()
-            .every(function () {
-                let column = this;
+$(document).ready(function () {
+    $('#myTable').DataTable({
+        initComplete: function () {
+            this.api()
+                .columns()
+                .every(function () {
+                    let column = this;
 
-                // Create select element
-                let select = document.createElement('select');
-                select.add(new Option(''));
-                column.footer().replaceChildren(select);
+                    // Create select element
+                    let select = document.createElement('select');
+                    select.add(new Option(''));
+                    column.footer().replaceChildren(select);
 
-                // Apply listener for user change in value
-                select.addEventListener('change', function () {
-                    var val = DataTable.util.escapeRegex(select.value);
+                    // Apply listener for user change in value
+                    select.addEventListener('change', function () {
+                        var val = DataTable.util.escapeRegex(select.value);
 
-                    column
-                        .search(val ? '^' + val + '$' : '', true, false)
-                        .draw();
-                });
-
-                // Add list of options
-                column
-                    .data()
-                    .unique()
-                    .sort()
-                    .each(function (d, j) {
-                        select.add(new Option(d));
+                        column
+                            .search(val ? '^' + val + '$' : '', true, false)
+                            .draw();
                     });
-            });
+
+                    // Add list of options
+                    column
+                        .data()
+                        .unique()
+                        .sort()
+                        .each(function (d, j) {
+                            select.add(new Option(d));
+                        });
+                });
+        }
     }
+    );
 });
+
+//new DataTable('#myTable', {
+//    initComplete: function () {
+//        this.api()
+//            .columns()
+//            .every(function () {
+//                let column = this;
+
+//                // Create select element
+//                let select = document.createElement('select');
+//                select.add(new Option(''));
+//                column.footer().replaceChildren(select);
+
+//                // Apply listener for user change in value
+//                select.addEventListener('change', function () {
+//                    var val = DataTable.util.escapeRegex(select.value);
+
+//                    column
+//                        .search(val ? '^' + val + '$' : '', true, false)
+//                        .draw();
+//                });
+
+//                // Add list of options
+//                column
+//                    .data()
+//                    .unique()
+//                    .sort()
+//                    .each(function (d, j) {
+//                        select.add(new Option(d));
+//                    });
+//            });
+//    }
+//});
 
 function turnCellRed() {
     let cellValue;
