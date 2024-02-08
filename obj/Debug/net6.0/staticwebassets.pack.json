@@ -5,6 +5,642 @@
       "PackagePath": "staticwebassets\\MvcMovie.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\css\\buttons.bootstrap.css",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\css\\buttons.bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\css\\buttons.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\css\\buttons.bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\css\\buttons.bootstrap4.css",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\css\\buttons.bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\css\\buttons.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\css\\buttons.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\css\\buttons.bootstrap5.css",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\css\\buttons.bootstrap5.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\css\\buttons.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\css\\buttons.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\css\\buttons.bulma.css",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\css\\buttons.bulma.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\css\\buttons.bulma.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\css\\buttons.bulma.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\css\\buttons.dataTables.css",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\css\\buttons.dataTables.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\css\\buttons.dataTables.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\css\\buttons.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\css\\buttons.foundation.css",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\css\\buttons.foundation.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\css\\buttons.foundation.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\css\\buttons.foundation.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\css\\buttons.jqueryui.css",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\css\\buttons.jqueryui.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\css\\buttons.jqueryui.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\css\\buttons.jqueryui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\css\\buttons.semanticui.css",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\css\\buttons.semanticui.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\css\\buttons.semanticui.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\css\\buttons.semanticui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\css\\common.scss",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\css\\common.scss"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\css\\mixins.scss",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\css\\mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\js\\buttons.bootstrap.js",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\js\\buttons.bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\js\\buttons.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\js\\buttons.bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\js\\buttons.bootstrap4.js",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\js\\buttons.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\js\\buttons.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\js\\buttons.bootstrap4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\js\\buttons.bootstrap5.js",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\js\\buttons.bootstrap5.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\js\\buttons.bootstrap5.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\js\\buttons.bootstrap5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\js\\buttons.bulma.js",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\js\\buttons.bulma.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\js\\buttons.bulma.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\js\\buttons.bulma.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\js\\buttons.colVis.js",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\js\\buttons.colVis.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\js\\buttons.colVis.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\js\\buttons.colVis.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\js\\buttons.dataTables.js",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\js\\buttons.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\js\\buttons.dataTables.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\js\\buttons.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\js\\buttons.foundation.js",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\js\\buttons.foundation.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\js\\buttons.foundation.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\js\\buttons.foundation.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\js\\buttons.html5.js",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\js\\buttons.html5.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\js\\buttons.html5.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\js\\buttons.html5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\js\\buttons.jqueryui.js",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\js\\buttons.jqueryui.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\js\\buttons.jqueryui.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\js\\buttons.jqueryui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\js\\buttons.print.js",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\js\\buttons.print.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\js\\buttons.print.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\js\\buttons.print.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\js\\buttons.semanticui.js",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\js\\buttons.semanticui.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\js\\buttons.semanticui.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\js\\buttons.semanticui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\js\\dataTables.buttons.js",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\js\\dataTables.buttons.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Buttons-2.4.2\\js\\dataTables.buttons.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\Buttons-2.4.2\\js\\dataTables.buttons.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\css\\dataTables.bootstrap.css",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\css\\dataTables.bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\css\\dataTables.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\css\\dataTables.bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\css\\dataTables.bootstrap4.css",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\css\\dataTables.bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\css\\dataTables.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\css\\dataTables.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\css\\dataTables.bootstrap5.css",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\css\\dataTables.bootstrap5.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\css\\dataTables.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\css\\dataTables.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\css\\dataTables.bulma.css",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\css\\dataTables.bulma.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\css\\dataTables.bulma.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\css\\dataTables.bulma.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\css\\dataTables.dataTables.css",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\css\\dataTables.dataTables.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\css\\dataTables.dataTables.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\css\\dataTables.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\css\\dataTables.foundation.css",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\css\\dataTables.foundation.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\css\\dataTables.foundation.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\css\\dataTables.foundation.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\css\\dataTables.jqueryui.css",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\css\\dataTables.jqueryui.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\css\\dataTables.jqueryui.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\css\\dataTables.jqueryui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\css\\dataTables.semanticui.css",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\css\\dataTables.semanticui.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\css\\dataTables.semanticui.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\css\\dataTables.semanticui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\css\\jquery.dataTables.css",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\css\\jquery.dataTables.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\css\\jquery.dataTables.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\css\\jquery.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\images\\sort_asc.png",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\images\\sort_asc.png"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\images\\sort_asc_disabled.png",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\images\\sort_asc_disabled.png"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\images\\sort_both.png",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\images\\sort_both.png"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\images\\sort_desc.png",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\images\\sort_desc.png"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\images\\sort_desc_disabled.png",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\images\\sort_desc_disabled.png"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\js\\dataTables.bootstrap.js",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\js\\dataTables.bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\js\\dataTables.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\js\\dataTables.bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\js\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\js\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\js\\dataTables.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\js\\dataTables.bootstrap4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\js\\dataTables.bootstrap5.js",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\js\\dataTables.bootstrap5.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\js\\dataTables.bootstrap5.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\js\\dataTables.bootstrap5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\js\\dataTables.bulma.js",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\js\\dataTables.bulma.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\js\\dataTables.bulma.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\js\\dataTables.bulma.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\js\\dataTables.dataTables.js",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\js\\dataTables.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\js\\dataTables.dataTables.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\js\\dataTables.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\js\\dataTables.foundation.js",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\js\\dataTables.foundation.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\js\\dataTables.foundation.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\js\\dataTables.foundation.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\js\\dataTables.jqueryui.js",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\js\\dataTables.jqueryui.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\js\\dataTables.jqueryui.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\js\\dataTables.jqueryui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\js\\dataTables.semanticui.js",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\js\\dataTables.semanticui.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\js\\dataTables.semanticui.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\js\\dataTables.semanticui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\js\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\js\\jquery.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DataTables-1.13.8\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.13.8\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DateTime-1.5.1\\css\\dataTables.dateTime.css",
+      "PackagePath": "staticwebassets\\DataTables\\DateTime-1.5.1\\css\\dataTables.dateTime.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DateTime-1.5.1\\css\\dataTables.dateTime.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\DateTime-1.5.1\\css\\dataTables.dateTime.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DateTime-1.5.1\\js\\dataTables.dateTime.js",
+      "PackagePath": "staticwebassets\\DataTables\\DateTime-1.5.1\\js\\dataTables.dateTime.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\DateTime-1.5.1\\js\\dataTables.dateTime.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\DateTime-1.5.1\\js\\dataTables.dateTime.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\SearchPanes-2.2.0\\css\\searchPanes.bootstrap.css",
+      "PackagePath": "staticwebassets\\DataTables\\SearchPanes-2.2.0\\css\\searchPanes.bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\SearchPanes-2.2.0\\css\\searchPanes.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\SearchPanes-2.2.0\\css\\searchPanes.bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\SearchPanes-2.2.0\\css\\searchPanes.bootstrap4.css",
+      "PackagePath": "staticwebassets\\DataTables\\SearchPanes-2.2.0\\css\\searchPanes.bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\SearchPanes-2.2.0\\css\\searchPanes.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\SearchPanes-2.2.0\\css\\searchPanes.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\SearchPanes-2.2.0\\css\\searchPanes.bootstrap5.css",
+      "PackagePath": "staticwebassets\\DataTables\\SearchPanes-2.2.0\\css\\searchPanes.bootstrap5.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\SearchPanes-2.2.0\\css\\searchPanes.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\SearchPanes-2.2.0\\css\\searchPanes.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\SearchPanes-2.2.0\\css\\searchPanes.bulma.css",
+      "PackagePath": "staticwebassets\\DataTables\\SearchPanes-2.2.0\\css\\searchPanes.bulma.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\SearchPanes-2.2.0\\css\\searchPanes.bulma.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\SearchPanes-2.2.0\\css\\searchPanes.bulma.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\SearchPanes-2.2.0\\css\\searchPanes.dataTables.css",
+      "PackagePath": "staticwebassets\\DataTables\\SearchPanes-2.2.0\\css\\searchPanes.dataTables.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\SearchPanes-2.2.0\\css\\searchPanes.dataTables.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\SearchPanes-2.2.0\\css\\searchPanes.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\SearchPanes-2.2.0\\css\\searchPanes.foundation.css",
+      "PackagePath": "staticwebassets\\DataTables\\SearchPanes-2.2.0\\css\\searchPanes.foundation.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\SearchPanes-2.2.0\\css\\searchPanes.foundation.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\SearchPanes-2.2.0\\css\\searchPanes.foundation.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\SearchPanes-2.2.0\\css\\searchPanes.jqueryui.css",
+      "PackagePath": "staticwebassets\\DataTables\\SearchPanes-2.2.0\\css\\searchPanes.jqueryui.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\SearchPanes-2.2.0\\css\\searchPanes.jqueryui.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\SearchPanes-2.2.0\\css\\searchPanes.jqueryui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\SearchPanes-2.2.0\\css\\searchPanes.semanticui.css",
+      "PackagePath": "staticwebassets\\DataTables\\SearchPanes-2.2.0\\css\\searchPanes.semanticui.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\SearchPanes-2.2.0\\css\\searchPanes.semanticui.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\SearchPanes-2.2.0\\css\\searchPanes.semanticui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\SearchPanes-2.2.0\\js\\dataTables.searchPanes.js",
+      "PackagePath": "staticwebassets\\DataTables\\SearchPanes-2.2.0\\js\\dataTables.searchPanes.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\SearchPanes-2.2.0\\js\\dataTables.searchPanes.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\SearchPanes-2.2.0\\js\\dataTables.searchPanes.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\SearchPanes-2.2.0\\js\\searchPanes.bootstrap.js",
+      "PackagePath": "staticwebassets\\DataTables\\SearchPanes-2.2.0\\js\\searchPanes.bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\SearchPanes-2.2.0\\js\\searchPanes.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\SearchPanes-2.2.0\\js\\searchPanes.bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\SearchPanes-2.2.0\\js\\searchPanes.bootstrap4.js",
+      "PackagePath": "staticwebassets\\DataTables\\SearchPanes-2.2.0\\js\\searchPanes.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\SearchPanes-2.2.0\\js\\searchPanes.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\SearchPanes-2.2.0\\js\\searchPanes.bootstrap4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\SearchPanes-2.2.0\\js\\searchPanes.bootstrap5.js",
+      "PackagePath": "staticwebassets\\DataTables\\SearchPanes-2.2.0\\js\\searchPanes.bootstrap5.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\SearchPanes-2.2.0\\js\\searchPanes.bootstrap5.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\SearchPanes-2.2.0\\js\\searchPanes.bootstrap5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\SearchPanes-2.2.0\\js\\searchPanes.bulma.js",
+      "PackagePath": "staticwebassets\\DataTables\\SearchPanes-2.2.0\\js\\searchPanes.bulma.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\SearchPanes-2.2.0\\js\\searchPanes.bulma.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\SearchPanes-2.2.0\\js\\searchPanes.bulma.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\SearchPanes-2.2.0\\js\\searchPanes.dataTables.js",
+      "PackagePath": "staticwebassets\\DataTables\\SearchPanes-2.2.0\\js\\searchPanes.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\SearchPanes-2.2.0\\js\\searchPanes.dataTables.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\SearchPanes-2.2.0\\js\\searchPanes.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\SearchPanes-2.2.0\\js\\searchPanes.foundation.js",
+      "PackagePath": "staticwebassets\\DataTables\\SearchPanes-2.2.0\\js\\searchPanes.foundation.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\SearchPanes-2.2.0\\js\\searchPanes.foundation.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\SearchPanes-2.2.0\\js\\searchPanes.foundation.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\SearchPanes-2.2.0\\js\\searchPanes.jqueryui.js",
+      "PackagePath": "staticwebassets\\DataTables\\SearchPanes-2.2.0\\js\\searchPanes.jqueryui.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\SearchPanes-2.2.0\\js\\searchPanes.jqueryui.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\SearchPanes-2.2.0\\js\\searchPanes.jqueryui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\SearchPanes-2.2.0\\js\\searchPanes.semanticui.js",
+      "PackagePath": "staticwebassets\\DataTables\\SearchPanes-2.2.0\\js\\searchPanes.semanticui.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\SearchPanes-2.2.0\\js\\searchPanes.semanticui.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\SearchPanes-2.2.0\\js\\searchPanes.semanticui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Select-1.7.0\\css\\select.bootstrap.css",
+      "PackagePath": "staticwebassets\\DataTables\\Select-1.7.0\\css\\select.bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Select-1.7.0\\css\\select.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\Select-1.7.0\\css\\select.bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Select-1.7.0\\css\\select.bootstrap4.css",
+      "PackagePath": "staticwebassets\\DataTables\\Select-1.7.0\\css\\select.bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Select-1.7.0\\css\\select.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\Select-1.7.0\\css\\select.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Select-1.7.0\\css\\select.bootstrap5.css",
+      "PackagePath": "staticwebassets\\DataTables\\Select-1.7.0\\css\\select.bootstrap5.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Select-1.7.0\\css\\select.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\Select-1.7.0\\css\\select.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Select-1.7.0\\css\\select.bulma.css",
+      "PackagePath": "staticwebassets\\DataTables\\Select-1.7.0\\css\\select.bulma.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Select-1.7.0\\css\\select.bulma.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\Select-1.7.0\\css\\select.bulma.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Select-1.7.0\\css\\select.dataTables.css",
+      "PackagePath": "staticwebassets\\DataTables\\Select-1.7.0\\css\\select.dataTables.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Select-1.7.0\\css\\select.dataTables.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\Select-1.7.0\\css\\select.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Select-1.7.0\\css\\select.foundation.css",
+      "PackagePath": "staticwebassets\\DataTables\\Select-1.7.0\\css\\select.foundation.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Select-1.7.0\\css\\select.foundation.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\Select-1.7.0\\css\\select.foundation.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Select-1.7.0\\css\\select.jqueryui.css",
+      "PackagePath": "staticwebassets\\DataTables\\Select-1.7.0\\css\\select.jqueryui.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Select-1.7.0\\css\\select.jqueryui.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\Select-1.7.0\\css\\select.jqueryui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Select-1.7.0\\css\\select.semanticui.css",
+      "PackagePath": "staticwebassets\\DataTables\\Select-1.7.0\\css\\select.semanticui.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Select-1.7.0\\css\\select.semanticui.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\Select-1.7.0\\css\\select.semanticui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Select-1.7.0\\js\\dataTables.select.js",
+      "PackagePath": "staticwebassets\\DataTables\\Select-1.7.0\\js\\dataTables.select.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Select-1.7.0\\js\\dataTables.select.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\Select-1.7.0\\js\\dataTables.select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Select-1.7.0\\js\\select.bootstrap.js",
+      "PackagePath": "staticwebassets\\DataTables\\Select-1.7.0\\js\\select.bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Select-1.7.0\\js\\select.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\Select-1.7.0\\js\\select.bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Select-1.7.0\\js\\select.bootstrap4.js",
+      "PackagePath": "staticwebassets\\DataTables\\Select-1.7.0\\js\\select.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Select-1.7.0\\js\\select.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\Select-1.7.0\\js\\select.bootstrap4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Select-1.7.0\\js\\select.bootstrap5.js",
+      "PackagePath": "staticwebassets\\DataTables\\Select-1.7.0\\js\\select.bootstrap5.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Select-1.7.0\\js\\select.bootstrap5.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\Select-1.7.0\\js\\select.bootstrap5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Select-1.7.0\\js\\select.bulma.js",
+      "PackagePath": "staticwebassets\\DataTables\\Select-1.7.0\\js\\select.bulma.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Select-1.7.0\\js\\select.bulma.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\Select-1.7.0\\js\\select.bulma.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Select-1.7.0\\js\\select.dataTables.js",
+      "PackagePath": "staticwebassets\\DataTables\\Select-1.7.0\\js\\select.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Select-1.7.0\\js\\select.dataTables.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\Select-1.7.0\\js\\select.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Select-1.7.0\\js\\select.foundation.js",
+      "PackagePath": "staticwebassets\\DataTables\\Select-1.7.0\\js\\select.foundation.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Select-1.7.0\\js\\select.foundation.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\Select-1.7.0\\js\\select.foundation.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Select-1.7.0\\js\\select.jqueryui.js",
+      "PackagePath": "staticwebassets\\DataTables\\Select-1.7.0\\js\\select.jqueryui.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Select-1.7.0\\js\\select.jqueryui.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\Select-1.7.0\\js\\select.jqueryui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Select-1.7.0\\js\\select.semanticui.js",
+      "PackagePath": "staticwebassets\\DataTables\\Select-1.7.0\\js\\select.semanticui.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\Select-1.7.0\\js\\select.semanticui.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\Select-1.7.0\\js\\select.semanticui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\datatables.css",
+      "PackagePath": "staticwebassets\\DataTables\\datatables.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\datatables.js",
+      "PackagePath": "staticwebassets\\DataTables\\datatables.js"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\datatables.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\datatables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\DataTables\\datatables.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\datatables.min.js"
+    },
+    {
       "Id": "C:\\Users\\fiumicelli\\source\\repos\\MvcMovie\\MvcMovie\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

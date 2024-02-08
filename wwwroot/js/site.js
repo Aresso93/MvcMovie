@@ -29,25 +29,6 @@ function validateEditString() {
     }
 } 
 
-//Window.onload = function () {
-//    let today = new Date();
-//    let dd = today.getDate();
-//    let mm = today.getMonth() + 1;
-//    let yyyy = today.getFullYear() + 1;
-//    console.log(yyyy);
-
-//    if (dd < 10) {
-//        dd = '0' + dd;
-//    }
-
-//    if (mm < 10) {
-//        mm = '0' + mm;
-//    }
-
-//    today = dd + '-' + mm + '-' + yyyy;
-//    document.getElementById("date-form").value = today
-//}
-
 function defaultDate() {
     let today = new Date();
     let dd = today.getDate();
@@ -91,7 +72,55 @@ function getDate() {
     return today.trim();
 }
 
-function test() {
-    console.log("2021-10-20")
-    return "2021-10-20"
+new DataTable('#myTable', {
+    initComplete: function () {
+        this.api()
+            .columns()
+            .every(function () {
+                let column = this;
+
+                // Create select element
+                let select = document.createElement('select');
+                select.add(new Option(''));
+                column.footer().replaceChildren(select);
+
+                // Apply listener for user change in value
+                select.addEventListener('change', function () {
+                    var val = DataTable.util.escapeRegex(select.value);
+
+                    column
+                        .search(val ? '^' + val + '$' : '', true, false)
+                        .draw();
+                });
+
+                // Add list of options
+                column
+                    .data()
+                    .unique()
+                    .sort()
+                    .each(function (d, j) {
+                        select.add(new Option(d));
+                    });
+            });
+    }
+});
+
+function turnCellRed() {
+    let cellValue;
+    if (cellValue == "Comedy") {
+
+    }
 }
+
+//{
+//    "columnDefs": [
+//        {
+//            "targets": "_all",
+//            "createdCell": function (td, cellData, rowData, row, col) {
+//                if (cellData == "Comedy") {
+//                    $(td).css('background-color', 'red')
+//                }
+//            }
+//        }
+//    ]
+//}

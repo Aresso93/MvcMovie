@@ -5,7 +5,7 @@
 }
 
 <h1>Index</h1>
-
+<link rel="stylesheet" href="~/DataTables/datatables.css" />
 <p>
     <a asp-action="Create">Create New</a>
 </p>
@@ -22,7 +22,7 @@
     </p>
 </form>
 
-<table class="table">
+<table class="table" id="myTable">
     <thead>
         <tr>
             <th>
@@ -62,7 +62,7 @@
                 <td>
                    @*  @Html.DisplayFor(modelItem => item.Rating) *@
                     
-                    @{
+                     @{
                         string movieRating = item.Rating.ToString().Replace("_", " ");
                         @Html.DisplayFor(stringhetta => movieRating)
                     } 
@@ -81,14 +81,17 @@
                         }
                         
                     }
-                    </div>
+                    </div> 
                 </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    <button><a asp-action="Edit" asp-route-id="@item.Id">Edit</a></button> 
+                    <button><a asp-action="Details" asp-route-id="@item.Id">Details</a></button>
+                    <button><a asp-action="Delete" asp-route-id="@item.Id">Delete</a></button>
+                    
                 </td>
             </tr>
         }
     </tbody>
 </table>
+
+<script src="~/DataTables/datatables.min.js"></script>
