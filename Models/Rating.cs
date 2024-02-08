@@ -1,13 +1,18 @@
-﻿namespace MvcMovie.Models
+﻿using System.ComponentModel;
+
+namespace MvcMovie.Models
 {
-    public enum Rating
-    {
-       
-            AbsoluteCrap = 1,
-            SlightlyCrap,
-            Average,
-            Okish,
-            Masterpiece
+    public enum Rating { 
+        [Description("Absolute crap")]
+    Absolute_Crap = 1,
+        [Description("Slightly Crap")]
+    Slightly_Crap,
+        [Description("Average")]
+    Average,
+        [Description("Okish")]
+    Okish,
+        [Description("Masterpiece")]
+    Masterpiece
         
     }
 

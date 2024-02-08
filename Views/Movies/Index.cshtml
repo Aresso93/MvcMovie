@@ -60,7 +60,13 @@
                     @Html.DisplayFor(modelItem => item.Price)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Rating)
+                   @*  @Html.DisplayFor(modelItem => item.Rating) *@
+                    
+                    @{
+                        string movieRating = item.Rating.ToString().Replace("_", " ");
+                        @Html.DisplayFor(stringhetta => movieRating)
+                    } 
+
                     <div class="star-container">
 
                     @{
