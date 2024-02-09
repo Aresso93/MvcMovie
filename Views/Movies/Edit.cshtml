@@ -45,7 +45,7 @@
                 <label asp-for="Rating" class="control-label"></label>
                 @{
                     string star = new string('⭐', (int)Model.Rating);
-                };
+                }
                 <input name="Rating" class="form-control" value="@star"/>
                 <span asp-validation-for="Rating" class="text-danger"></span>
             </div>
