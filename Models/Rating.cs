@@ -1,17 +1,18 @@
 ﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace MvcMovie.Models
 {
     public enum Rating { 
-        [Description("Absolute crap")]
+        //[DisplayName("Absolute crap")]
     Absolute_Crap = 1,
-        [Description("Slightly Crap")]
+        //[Description("Slightly Crap")]
     Slightly_Crap,
-        [Description("Average")]
+        //[Description("Average")]
     Average,
-        [Description("Okish")]
+        //[Description("Okish")]
     Okish,
-        [Description("Masterpiece")]
+        //[Description("Masterpiece")]
     Masterpiece
         
     }

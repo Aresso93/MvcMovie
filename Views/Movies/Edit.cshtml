@@ -2,13 +2,13 @@
 
 @{
     ViewData["Title"] = "Edit";
-}@{
-    ViewData["EditPriceValue"] = Model.Price;
-}
 
-@{
-    ViewData["EditRatingValue"] = (int)Model.Rating;
+    // ViewData["EditPriceValue"] = Model.Price;
+
+    //ViewData["EditRatingValue"] = (int)Model.Rating;
+
     }
+    
 
 
 <h1>Edit</h1>
@@ -37,13 +37,16 @@
             <div class="form-group">
                 @* <label asp-for="Price" class="control-label"></label> *@
                 <label>Price</label>
-                <input name="Price" class="form-control" type="text" id="edit-price-form" value="@ViewData["EditPriceValue"]" onchange="validateEditString()" />
+                <input name="Price" class="form-control" type="text" id="edit-price-form" value="@Model.Price" onchange="validateEditString()" />
                 @* <input asp-for="Price" class="form-control" id="edit-price-form" onchange="validateEditString()" /> *@
                 <span asp-validation-for="Price" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Rating" class="control-label"></label>
-                <input name="Rating" class="form-control" value="@ViewData["EditRatingValue"]"/>
+                @{
+                    string star = new string('⭐', (int)Model.Rating);
+                };
+                <input name="Rating" class="form-control" value="@star"/>
                 <span asp-validation-for="Rating" class="text-danger"></span>
             </div>
             <div class="form-group">

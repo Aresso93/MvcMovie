@@ -15,6 +15,10 @@ function validateString() {
     }
 } 
 
+function cleanField() {
+    console.log("UUUUUUUU")
+}
+
 function validateEditString() {
     let val = 2;
     let myString = document.getElementById("edit-price-form").value
@@ -76,7 +80,7 @@ $(document).ready(function () {
     $('#myTable').DataTable({
         initComplete: function () {
             this.api()
-                .columns()
+                .columns([0, 1, 2, 3, 5])
                 .every(function () {
                     let column = this;
 
@@ -102,61 +106,25 @@ $(document).ready(function () {
                         .each(function (d, j) {
                             select.add(new Option(d));
                         });
+                    
                 });
         }
+
+
     }
     );
 });
 
-//new DataTable('#myTable', {
-//    initComplete: function () {
-//        this.api()
-//            .columns()
-//            .every(function () {
-//                let column = this;
 
-//                // Create select element
-//                let select = document.createElement('select');
-//                select.add(new Option(''));
-//                column.footer().replaceChildren(select);
-
-//                // Apply listener for user change in value
-//                select.addEventListener('change', function () {
-//                    var val = DataTable.util.escapeRegex(select.value);
-
-//                    column
-//                        .search(val ? '^' + val + '$' : '', true, false)
-//                        .draw();
-//                });
-
-//                // Add list of options
-//                column
-//                    .data()
-//                    .unique()
-//                    .sort()
-//                    .each(function (d, j) {
-//                        select.add(new Option(d));
-//                    });
-//            });
-//    }
-//});
-
-function turnCellRed() {
-    let cellValue;
-    if (cellValue == "Comedy") {
-
-    }
-}
-
-//{
-//    "columnDefs": [
-//        {
-//            "targets": "_all",
-//            "createdCell": function (td, cellData, rowData, row, col) {
-//                if (cellData == "Comedy") {
-//                    $(td).css('background-color', 'red')
+//    $('#myTable').DataTable({
+//            "columnDefs": [
+//                {
+//                    "targets": "_all",
+//                    "createdCell": function (td, cellData, rowData, row, col) {
+//                        if (cellData == "Comedy") {
+//                            $(td).css('background-color', 'red')
+//                        }
+//                    }
 //                }
-//            }
+//            ]
 //        }
-//    ]
-//}
