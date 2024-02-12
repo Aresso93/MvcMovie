@@ -1,6 +1,7 @@
 ﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 // for details on configuring this project to bundle and minify static web assets.
 
+
 function validateString() {
     let val = 2;
     let myString = document.getElementById("price-form").value
@@ -15,8 +16,8 @@ function validateString() {
     }
 } 
 
-function cleanField() {
-    console.log("UUUUUUUU")
+function idToGenre(id) {
+   
 }
 
 function validateEditString() {

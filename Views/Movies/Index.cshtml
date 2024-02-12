@@ -10,7 +10,7 @@
     <a asp-action="Create">Create New</a>
 </p>
 
-<form asp-controller="Movies" asp-action="Index" method="get">
+@* <form asp-controller="Movies" asp-action="Index" method="get">
     <p>
 
         <select asp-for="MovieGenre" asp-items="Model.Genres">
@@ -20,7 +20,7 @@
         Title: <input type="text" asp-for="SearchString" />
         <input type="submit" value="Filter" />
     </p>
-</form>
+</form> *@
 
 <table class="table" id="myTable">
     <thead>
@@ -54,7 +54,14 @@
                     @Html.DisplayFor(modelItem => item.ReleaseDate)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Genre)
+                    @{
+                        // int? movieID = item.GenreId;
+                        //string myGenre = Model.MovieRecords.ToString();
+                        string franco = "Franco";
+                        
+                    }
+                        @Html.DisplayFor(myString => franco)
+
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Price)
@@ -84,9 +91,9 @@
                     </div> 
                 </td>
                 <td>
-                    <button><a asp-action="Edit" asp-route-id="@item.Id">Edit</a></button> 
-                    <button><a asp-action="Details" asp-route-id="@item.Id">Details</a></button>
-                    <button><a asp-action="Delete" asp-route-id="@item.Id">Delete</a></button>
+                   <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                   <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                   <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
                     
                 </td>
             </tr>

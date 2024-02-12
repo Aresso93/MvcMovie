@@ -15,5 +15,9 @@ namespace MvcMovie.Data
         }
 
         public DbSet<MvcMovie.Models.Movie> Movie { get; set; } = default!;
+
+        public DbSet<MvcMovie.Models.Genre> Genre { get; set; }
+
+        public DbSet<MvcMovie.Models.MovieDTO> MovieDTO { get; set; }
     }
 }

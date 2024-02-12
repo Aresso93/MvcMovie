@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -7,6 +8,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MvcMovie.Data;
 using MvcMovie.Models;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace MvcMovie.Controllers
 {
@@ -23,26 +25,42 @@ namespace MvcMovie.Controllers
         public async Task<IActionResult> Index(string movieGenre, string searchString)
         {
 
-            IQueryable<string> genreQuery = from m in _context.Movie
-                                            orderby m.Genre
-                                            select m.Genre;
+            //IQueryable<string> genreQuery = from m in _context.Movie
+            //                                orderby m.Genre
+            //                                select m.Genre;
 
             var movies = from m in _context.Movie
                          select m;
+
+            var dtoMmovies =
+            from movie in _context.MovieDTO
+            join genre in _context.Genre on movie.Genre equals genre.MovieGenre into newTable
+            from subGenre in newTable.DefaultIfEmpty()
+            select new
+            {
+                movie.Title,
+                myGenre = subGenre.MovieGenre ?? string.Empty
+            };
+
 
             if (!String.IsNullOrEmpty(searchString))
             {
                 movies = movies.Where(s => s.Title!.Contains(searchString));
             }
 
-            if (!String.IsNullOrEmpty(movieGenre))
+            if (1 > 0)
             {
-                movies = movies.Where(x => x.Genre == movieGenre);
+                
             }
+
+            //if (!String.IsNullOrEmpty(movieGenre))
+            //{
+            //    movies = movies.Where(x => x.Genre == movieGenre);
+            //}
 
             var movieGenreVM = new MovieGenreViewModel
             {
-                Genres = new SelectList(await genreQuery.Distinct().ToListAsync()),
+                //Genres = new SelectList(await genreQuery.Distinct().ToListAsync()),
                 Movies = await movies.ToListAsync()
             };
 
@@ -70,6 +88,8 @@ namespace MvcMovie.Controllers
         // GET: Movies/Create
         public IActionResult Create()
         {
+            var genre = _context.Genre.ToList();
+            ViewData["Genre"] = new SelectList(genre, "Id", "MovieGenre");
             return View();
         }
 
@@ -78,7 +98,7 @@ namespace MvcMovie.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Title,ReleaseDate,Genre,Price,Rating")] Movie movie)
+        public async Task<IActionResult> Create([Bind("Id,Title,ReleaseDate,GenreId,Price,Rating")] Movie movie)
         {
             if (ModelState.IsValid)
             {
@@ -110,7 +130,7 @@ namespace MvcMovie.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,ReleaseDate,Genre,Price,Rating")] Movie movie)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,ReleaseDate,GenreId,Price,Rating")] Movie movie)
         {
             if (id != movie.Id)
             {
