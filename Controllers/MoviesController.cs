@@ -22,7 +22,7 @@ namespace MvcMovie.Controllers
         }
 
         // GET: Movies
-        public async Task<IActionResult> Index(string movieGenre, string searchString)
+        public async Task<IActionResult> Index()
         {
 
             //IQueryable<string> genreQuery = from m in _context.Movie
@@ -32,36 +32,28 @@ namespace MvcMovie.Controllers
             var movies = from m in _context.Movie
                          select m;
 
-            var dtoMmovies =
-            from movie in _context.MovieDTO
-            join genre in _context.Genre on movie.Genre equals genre.MovieGenre into newTable
+            var dtoMovies =
+            from movie in _context.Movie
+            join genre in _context.Genre on movie.GenreId equals genre.Id into newTable
             from subGenre in newTable.DefaultIfEmpty()
-            select new
-            {
+            select new MovieDTO
+            (
+                movie.Id,
                 movie.Title,
-                myGenre = subGenre.MovieGenre ?? string.Empty
-            };
-
-
-            if (!String.IsNullOrEmpty(searchString))
-            {
-                movies = movies.Where(s => s.Title!.Contains(searchString));
-            }
-
-            if (1 > 0)
-            {
-                
-            }
-
-            //if (!String.IsNullOrEmpty(movieGenre))
+                movie.ReleaseDate,
+                movie.Price,
+                movie.Rating,
+                subGenre.MovieGenre ?? string.Empty
+            );
+            //if (!String.IsNullOrEmpty(searchString))
             //{
-            //    movies = movies.Where(x => x.Genre == movieGenre);
+            //    movies = movies.Where(s => s.Title!.Contains(searchString));
             //}
 
             var movieGenreVM = new MovieGenreViewModel
             {
                 //Genres = new SelectList(await genreQuery.Distinct().ToListAsync()),
-                Movies = await movies.ToListAsync()
+                MovieRecords = await dtoMovies.ToListAsync()
             };
 
             return View(movieGenreVM);
@@ -74,9 +66,23 @@ namespace MvcMovie.Controllers
             {
                 return NotFound();
             }
-
             var movie = await _context.Movie
                 .FirstOrDefaultAsync(m => m.Id == id);
+
+            //var dtoMovie =
+            //from mymovie in _context.Movie
+            //join genre in _context.Genre on mymovie.GenreId equals genre.Id into newTable
+            //from subGenre in newTable.DefaultIfEmpty()
+            //select new MovieDTO
+            //(
+            //    mymovie.Id,
+            //    mymovie.Title,
+            //    mymovie.ReleaseDate,
+            //    mymovie.Price,
+            //    mymovie.Rating,
+            //    subGenre.MovieGenre ?? string.Empty
+            //);
+
             if (movie == null)
             {
                 return NotFound();
@@ -100,6 +106,9 @@ namespace MvcMovie.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Title,ReleaseDate,GenreId,Price,Rating")] Movie movie)
         {
+            var genre = _context.Genre.ToList();
+            ViewData["Genre"] = new SelectList(genre, "Id", "MovieGenre");
+
             if (ModelState.IsValid)
             {
                 _context.Add(movie);
@@ -112,6 +121,9 @@ namespace MvcMovie.Controllers
         // GET: Movies/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
+            var genre = _context.Genre.ToList();
+            ViewData["Genre"] = new SelectList(genre, "Id", "MovieGenre");
+
             if (id == null || _context.Movie == null)
             {
                 return NotFound();
@@ -132,6 +144,9 @@ namespace MvcMovie.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Title,ReleaseDate,GenreId,Price,Rating")] Movie movie)
         {
+            var genre = _context.Genre.ToList();
+            ViewData["Genre"] = new SelectList(genre, "Id", "MovieGenre");
+
             if (id != movie.Id)
             {
                 return NotFound();

@@ -5,7 +5,6 @@ namespace MvcMovie.Models
 {
     public class Genre
     {
-
         public int Id { get; set; } 
 
         [RegularExpression(@"^[A-Z]+[a-zA-Z\s]*$")]

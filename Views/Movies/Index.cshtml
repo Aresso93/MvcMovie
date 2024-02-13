@@ -26,25 +26,25 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Movies[0].Title)
+                @Html.DisplayNameFor(model => model.MovieRecords[0].Title)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Movies[0].ReleaseDate)
+                @Html.DisplayNameFor(model => model.MovieRecords[0].ReleaseDate)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Movies[0].Genre)
+                @Html.DisplayNameFor(model => model.MovieRecords[0].Genre)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Movies[0].Price)
+                @Html.DisplayNameFor(model => model.MovieRecords[0].Price)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Movies[0].Rating)
+                @Html.DisplayNameFor(model => model.MovieRecords[0].Rating)
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model.Movies)
+        @foreach (var item in Model.MovieRecords)
         {
             <tr>
                 <td>
@@ -55,12 +55,11 @@
                 </td>
                 <td>
                     @{
-                        // int? movieID = item.GenreId;
-                        //string myGenre = Model.MovieRecords.ToString();
-                        string franco = "Franco";
+
+                        string myGenre = item.Genre;
                         
                     }
-                        @Html.DisplayFor(myString => franco)
+                        @Html.DisplayFor(myString => myGenre)
 
                 </td>
                 <td>
@@ -69,10 +68,10 @@
                 <td>
                    @*  @Html.DisplayFor(modelItem => item.Rating) *@
                     
-                     @{
+                    @*  @{
                         string movieRating = item.Rating.ToString().Replace("_", " ");
                         @Html.DisplayFor(stringhetta => movieRating)
-                    } 
+                    }  *@
 
                     <div class="star-container">
 

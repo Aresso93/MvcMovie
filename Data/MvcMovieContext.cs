@@ -18,6 +18,6 @@ namespace MvcMovie.Data
 
         public DbSet<MvcMovie.Models.Genre> Genre { get; set; }
 
-        public DbSet<MvcMovie.Models.MovieDTO> MovieDTO { get; set; }
+        //public DbSet<MvcMovie.Models.MovieDTO> MovieDTO { get; set; }
     }
 }
