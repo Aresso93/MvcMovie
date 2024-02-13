@@ -48,7 +48,7 @@
                 @{
                     string star = new string('⭐', (int)Model.Rating);
                 }
-                <input name="Rating" class="form-control" value="@star"/>
+                <input name="Rating" class="form-control" placeholder="@star" />
                 <span asp-validation-for="Rating" class="text-danger"></span>
             </div>
             <div class="form-group">
